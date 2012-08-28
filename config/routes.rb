@@ -1,4 +1,13 @@
 Radarbench::Application.routes.draw do
+  namespace :api do
+    resources :users do
+      resources :bookmarks do
+        get 'benchmark', on: :collection
+      end
+    end
+  end
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

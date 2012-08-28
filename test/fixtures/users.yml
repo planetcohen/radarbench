@@ -1,0 +1,34 @@
+alice:
+  id: alice00
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  email: thedecktest+alice@gmail.com  # gmail user: thedecktest@gmail.com password: tdtgmail
+  first_name: Alice
+  last_name: Anderson
+  #password_salt: EGrupLknWgc=
+  #password_hash: 6c5741e4b85768a121831eb383cd9acc051d4c90c064a984addad2ecf2a1e92f # 'password'
+  fb_uid: 100002484055766
+  fb_access_token: 134012523325558|dba39b30da3a13b7cc54dcdc.0-100002484055766|1kBn86zHsU7i1YI6VgsG64wusSg
+  #role: admin
+  #pic_square: https://fbcdn-profile-a.akamaihd.net/hprofile-ak-snc4/274890_100002797105321_8181127_q.jpg
+
+bob:
+  id: bob0000
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  email: thedecktest+bob@gmail.com # gmail user: thedecktest@gmail.com password: tdtgmail
+  first_name: Bob
+  last_name: Benson
+  #password_salt: ikC+7Nq5ycI=
+  #password_hash: 168ae3c225cb2a378d8b68644ad185ecd86f99da97bc33502428e5ad37703718 # 'password'
+  fb_uid: 100002541656036
+  fb_access_token: 134012523325558|df0b701f9a2e9d5b2b51a66d.0-100002541656036|5Or35u4qXvlj2taXh854qrpTAYM
+  #role: user
+  #pic_square: https://fbcdn-profile-a.akamaihd.net/hprofile-ak-snc4/275299_1266930050_1331245228_q.jpg
+
+#chris: # chris is just a contact, we don't have his email
+#  type: Contact
+#  first_name: Chris
+#  last_name: Cooper
+#  fb_uid: 100002537065954
+#  identity_tag: chris00

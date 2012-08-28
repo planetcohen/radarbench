@@ -1,0 +1,29 @@
+bookmark_alice1:
+  id: bmark01
+  video_id: 'charlie'
+  user_id: 'alice00'
+
+bookmark_alice2:
+  id: bmark02
+  video_id: 'rickrll'
+  user_id: 'alice00'
+
+bookmark_alice3:
+  id: bmark03
+  video_id: 'nyancat'
+  user_id: 'alice00'
+
+bookmark_bob1:
+  id: bmark04
+  video_id: 'charlie'
+  user_id: 'bob0000'
+
+bookmark_bob2:
+  id: bmark05
+  video_id: 'rickrll'
+  user_id: 'bob0000'
+
+bookmark_bob3:
+  id: bmark06
+  video_id: 'nyancat'
+  user_id: 'bob0000'
