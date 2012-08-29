@@ -11,6 +11,7 @@ if defined?(JRUBY_VERSION)
   gem 'jdbc-postgres' #, :require=>false
 else
   gem 'pg'
+  gem "thin"
 end
 
 
@@ -45,6 +46,3 @@ end
 
 gem "haml", ">= 3.0.0"
 gem "haml-rails"
-
-
-gem "thin"
