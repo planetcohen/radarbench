@@ -3,7 +3,6 @@ module Api
     include UserResourceableController
     
     def benchmark
-      @resource = resources_scope.build video: Video.first
       @instance = resources_scope.build video: Video.first
       logger.debug "@instance => #{@instance.inspect}"
       if @instance.save

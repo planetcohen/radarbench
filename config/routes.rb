@@ -6,6 +6,10 @@ Radarbench::Application.routes.draw do
       end
     end
   end
+  
+  match '/benchmarks/text'     => 'benchmarks#text'
+  match '/benchmarks/db_read'  => 'benchmarks#db_read'
+  match '/benchmarks/db_write' => 'benchmarks#db_write'
 
 
   # The priority is based upon order of creation:
