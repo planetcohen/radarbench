@@ -6,6 +6,7 @@ gem 'rails', '3.2.8'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 if defined?(JRUBY_VERSION)
+  gem 'jruby-openssl'
   gem 'activerecord-jdbc-adapter' #, '=1.1.3'
   gem 'activerecord-jdbcpostgresql-adapter' #, '=1.1.3'
   gem 'jdbc-postgres' #, :require=>false
