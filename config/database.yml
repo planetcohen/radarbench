@@ -49,5 +49,7 @@ production:
   encoding: unicode
   database: radarbench_production
   pool: 5
-  username: radarbench
-  password:
+  host: localhost
+  port: 5432
+  #username: radarbench
+  #password:
