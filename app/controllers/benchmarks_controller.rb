@@ -2,6 +2,10 @@ class BenchmarksController < ApplicationController
   include SerializableController
 
   def text
+    render text: "hey there"
+  end
+  
+  def template
   end
   
   def db_read

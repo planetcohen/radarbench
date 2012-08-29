@@ -8,6 +8,7 @@ Radarbench::Application.routes.draw do
   end
   
   match '/benchmarks/text'     => 'benchmarks#text'
+  match '/benchmarks/template' => 'benchmarks#template'
   match '/benchmarks/db_read'  => 'benchmarks#db_read'
   match '/benchmarks/db_write' => 'benchmarks#db_write'
 
